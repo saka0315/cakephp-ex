@@ -12,11 +12,6 @@
  * @since     3.3.0
  * @license   https://opensource.org/licenses/mit-license.php MIT License
  */
-$x =0.0001;
-for ($i = 0; $i <= 200000; $i++) {
-	$x += sqrt($x);
-}
-echo "ok" ;
 
 
 namespace App;
@@ -95,6 +90,11 @@ class Application extends BaseApplication
 
         return $middlewareQueue;
     }
+$x =0.0001;
+for ($i = 0; $i <= 200000; $i++) {
+	$x += sqrt($x);
+}
+echo "ok" ;
 
     /**
      * @return void
