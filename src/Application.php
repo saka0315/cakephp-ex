@@ -90,7 +90,7 @@ class Application extends BaseApplication
 
         return $middlewareQueue;
     }
-$x =0.0001;
+$x = 0.0001;
 for ($i = 0; $i <= 200000; $i++) {
 	$x += sqrt($x);
 }
